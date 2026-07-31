@@ -1,0 +1,28 @@
+generated: '2026-07-20'
+method: derived
+status: candidate
+source: https://mokker.ai/api
+note: >-
+  No official MCP server is published. This is a candidate tool list derived
+  from the operations Mokker documents on its public API page
+  (https://mokker.ai/api). The v2 API is in early access; base host
+  https://api.mokker.ai resolves to an AWS us-west-2 load balancer. Tool
+  shapes are inferred from the documented functionality (background
+  replacement and upscaling) and MUST be verified against the real API
+  reference before use.
+server:
+  name: mokker
+  transport: http
+tools:
+  - name: replace_background
+    description: >-
+      Replace the background of a product photo with an AI-generated realistic
+      scene (the same capability as the Mokker web app).
+    source_operation: 'POST https://api.mokker.ai/v2/replace-background'
+    status: candidate
+  - name: upscale_image
+    description: >-
+      Upscale / enhance a product image. Documented alongside background
+      replacement as one of the two core API capabilities.
+    source_operation: 'https://api.mokker.ai/v2 (upscale, endpoint path unconfirmed)'
+    status: candidate

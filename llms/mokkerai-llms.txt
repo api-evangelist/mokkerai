@@ -1,0 +1,28 @@
+# Mokker AI
+
+> Mokker AI is an AI product-photography tool that replaces the background of a product photo with a realistic AI-generated scene and upscales images — turning a plain product shot into studio-quality marketing imagery without Photoshop. Mokker joined soona (soona.co/mokker) and offers a v2 REST API in early access that exposes the same background-replacement and upscale capabilities as the web app.
+
+## API
+- [Mokker API (early access)](https://mokker.ai/api): Developer landing page with a POST /v2/replace-background example; base host https://api.mokker.ai/v2. Early access — sign up for free API credits.
+
+## Product
+- [Mokker AI web app](https://app.mokker.ai/login): Sign in / sign up to use background replacement and upscaling in the browser.
+- [AI product photos](https://mokker.ai/ai-product-photos)
+- [AI photoshoot](https://mokker.ai/ai-photoshoot)
+- [Showcase / use cases](https://mokker.ai/pricing): Cosmetics, electronics, furniture, jewellery.
+
+## Docs & Support
+- [Pricing](https://mokker.ai/pricing)
+- [Blog](https://mokker.ai/blog)
+- [Help Center (soona)](https://support.soona.co/)
+- [Early access API form](https://share.hsforms.com/1mvFcnqArRyigfvk-ZCykAwe281q)
+
+## Legal
+- [Terms](https://mokker.ai/terms)
+- [License](https://mokker.ai/license)
+- [Privacy](https://mokker.ai/privacy)
+- [Imprint](https://mokker.ai/imprint)
+
+## Notes
+- Backed by Point Nine (point-nine).
+- No public OpenAPI, gRPC, AsyncAPI, MCP server, security.txt, or /.well-known catalog was found as of 2026-07-20.

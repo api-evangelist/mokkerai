@@ -1,7 +1,27 @@
 aid: mokkerai
 name: Mokker.ai
-description: Mokker.ai is a company surfaced as a portfolio company of point-nine and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Mokker AI is an AI product-photography tool that replaces the background of a
+  product photo with a realistic, AI-generated scene and upscales images,
+  turning a plain product shot into studio-quality marketing imagery without
+  Photoshop. It serves e-commerce sellers and marketers across categories like
+  cosmetics, electronics, furniture, and jewellery. Mokker is now part of soona
+  (soona.co/mokker) and exposes a v2 REST API in early access that offers the
+  same background-replacement and upscale capabilities as its web app, with free
+  API credits for developers building integrations. Mokker is backed by Point
+  Nine and was added to the API Evangelist network as a portfolio lead.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/xdLOSfokuQlszbASX5TOpMKlZw.jpg
 url: https://raw.githubusercontent.com/api-evangelist/mokkerai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +31,60 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Artificial Intelligence
+- Image Processing
+- Product Photography
+- E-Commerce
+- Background Removal
+- Computer Vision
+- Generative AI
+apis:
+- name: Mokker API
+  description: >-
+    Early-access v2 REST API that replaces product-photo backgrounds with
+    AI-generated scenes and upscales images — the same functionality as the
+    Mokker web app. Documented with a POST /v2/replace-background example on the
+    developer landing page; sign up for free API credits during early access.
+  humanURL: https://mokker.ai/api
+  baseURL: https://api.mokker.ai/v2
+  tags:
+  - Artificial Intelligence
+  - Image Processing
+  - Product Photography
+  properties:
+  - type: MCPServer
+    url: mcp/mokkerai-mcp.yml
+  - type: LLMsTxt
+    url: llms/mokkerai-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mokkerai-domain-security.yml
 - type: Website
   url: https://mokker.ai
+- type: DeveloperPortal
+  url: https://mokker.ai/api
+- type: Pricing
+  url: https://mokker.ai/pricing
+- type: Blog
+  url: https://mokker.ai/blog
+- type: SignUp
+  url: https://app.mokker.ai/login
+- type: Support
+  url: https://support.soona.co/
+- type: TermsOfService
+  url: https://mokker.ai/terms
+- type: PrivacyPolicy
+  url: https://mokker.ai/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
