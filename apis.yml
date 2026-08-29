@@ -10,6 +10,17 @@ description: >-
   same background-replacement and upscale capabilities as its web app, with free
   API credits for developers building integrations. Mokker is backed by Point
   Nine and was added to the API Evangelist network as a portfolio lead.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
