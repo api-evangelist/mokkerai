@@ -1,0 +1,26 @@
+# Front Door AI Index — mokkerai — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: mokkerai
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: mokker.ai
+  final_host: mokker.ai
+  ownership: own
+  owner: mokkerai
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 60
+  host_score: 60
+  density: 32.73
+  words: 1833
+  tiers:
+    agentic: 0
+    core: 57
+    model: 3
+  ambiguous: 0
+  top_terms:
+    AI: 57
+    ChatGPT: 3
