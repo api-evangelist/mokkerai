@@ -64,6 +64,101 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Mokker.ai is a company surfaced as a portfolio company of point-nine and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Mokker AI is an AI product-photography tool that replaces the background of a product photo with a realistic, AI-generated scene and upscales images, turning a plain product shot into studio-quality marketing imagery without Photoshop. It serves e-commerce sellers and marketers across categories like cosmetics, electronics, furniture, and jewellery. Mokker is now part of soona (soona.co/mokker) and exposes a v2 REST API in early access that offers the same background-replacement and upscale capabilities as its web app, with free API credits for developers building integrations. Mokker is backed by Point Nine and was added to the API Evangelist network as a portfolio lead.
 
-Backed by: point-nine — https://mokker.ai
+**Areas:** Company · Artificial Intelligence · Image Processing · Product Photography · E-Commerce · Background Removal · Computer Vision · Generative AI
+
+## Mokker.ai on APIs.io
+
+Everything profiled for Mokker.ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mokkerai/](https://apis.io/providers/mokkerai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Mokker API](https://apis.io/apis/mokkerai/mokker-api/) — Early-access v2 REST API that replaces product-photo backgrounds with AI-generated scenes and upscales images — the same functionality as the Mokker web…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [mokker](https://apis.io/servers/mokkerai/mokker/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Mokkerai Domain Security](https://apis.io/security/mokkerai/mokkerai-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Mokkerai Plans Pricing](https://apis.io/plans/mokkerai/mokkerai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mokker.ai)
+- [Pricing](https://mokker.ai/pricing)
+- [Sign up](https://app.mokker.ai/login)
+- [Support](https://support.soona.co/)
+- [Blog](https://mokker.ai/blog)
+- [Terms of service](https://mokker.ai/terms)
+- [Privacy policy](https://mokker.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 25.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 76.3 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.7** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mokkerai/](https://apis.io/providers/mokkerai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Mokker.ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mokkerai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
